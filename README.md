@@ -1,5 +1,3 @@
-Here is a well-structured **README.md** file for your **Gold Wings Academy Webpage** repository.  
-
 ---
 
 ## **Gold Wings Academy Webpage**  
