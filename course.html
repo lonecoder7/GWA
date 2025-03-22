@@ -1,0 +1,97 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gold wings academy</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+
+    <marque> </marque>
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Step into success—empower your skills and passions with us.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Master German with Our A1–B2 Modules</h3>
+                <p>Expert-led A1–B2 German courses designed to help you achieve fluency with confidence—perfect for study, work, and travel.</p>
+            </div>
+            <div class="course-col">
+                <h3>Master Sprechen & Schreiben</h3>
+                <p>Enhance your German speaking and writing skills with our specialized course. Gain confidence, accuracy, and fluency through expert guidance and practical exercises.</p>
+            </div>
+            <div class="course-col">
+                <h3>Master Lesen & Hören</h3>
+                <p>Improve your German reading and listening skills with our specialized classes. Develop comprehension, accuracy, and fluency through expert guidance and interactive practice.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>A Learning Hub for Excellence.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/cafeteria.png">
+                    <h3>World-Class German Studies</h3>
+                    <p>Master A1 to B2 German with expert-led training, focusing on speaking, writing, reading, and listening for global opportunities.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/library.jpg">
+                    <h3>Hassle-Free Visa Assistance</h3>
+                    <p>Get expert guidance for a smooth and stress-free visa process. We help you navigate every step with ease.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/basketball.jpg">
+                    <h3>Comprehensive Education Consultancy</h3>
+                    <p>Expert guidance for domestic and international education, from course selection to admissions, ensuring a seamless academic journey.</p>
+                </div>
+            </div>
+    </section>
+    
+
+
+    <section class="cta">
+        <h1>Enroll For Our Courses</h1>
+        <a href="contact.html" class="hero-btn">Enroll</a>
+    </section>  
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
